@@ -4,10 +4,10 @@ console.log("Scrpit By Dream");
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("589421447974486047")
+let channel =     client.channels.get("")
 setInterval(function() {
-channel.send(`iyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi iyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalbiyouchi kalb`);
-}, 10)
+channel.send(``);
+}, 30)
 })
 
 client.login(process.env.BOT_TOKEN);
